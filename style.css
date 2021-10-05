@@ -129,6 +129,36 @@ main.container {
     margin-top: 18px;
 }
 
+@media only screen and (max-width: 450px){
+    body{
+        background-image: url("images/pattern-background-mobile.svg");
+    }
+    main.container{
+        width: 300px;
+        height: 500px;
+    }
+    .hero {
+        width: 300px;
+    }
+    .valor {
+        width: 280px;
+        height: 70px;
+    }
+    .valor > a {
+        left: 10%;
+    }
+    #btn-1 {
+        width: 280px;
+    }
+    #btn-2 {
+        width: 280px;
+
+    }
+
+}
+
+
+
 
 
 
